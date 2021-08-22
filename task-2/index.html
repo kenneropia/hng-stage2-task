@@ -40,11 +40,11 @@
         "
       >
         <li class="">
-          <a href="#about" class="active">About </a>
+          <a href="#projects" class="active">Projects </a>
         </li>
+        <li><a href="#skills">Skills </a></li>
         <li><a href="#experience">Experience </a></li>
         <li><a href="#education">Education </a></li>
-        <li><a href="#skills">Skills </a></li>
       </ul>
     </nav>
     <section class="flex flex-col md:flex-row md:mt-20 lg:mx-36">
@@ -71,7 +71,7 @@
         <div class="font-bold text-4xl my-6 text-center">
           Adetunmbi Kehinde 🤘
         </div>
-        <div class="w-full md:mx-28">
+        <div id="about" class="w-full md:mx-28">
           <p class="w-full font-light text-2xl sm:text-2xl">
             😉 Hi there! My name is Kehinde. I'm a
             <span class="underline"> fullstack developer</span> and
@@ -82,7 +82,7 @@
         </div>
         <div class="w-full mb-16">
           <div
-            class="w-auto border-black-light border-t-[0.5px] border-b-[0.5px]"
+            class="w-auto border-black-light border-b-[0.5px] border-b-[0.5px]"
           >
             <p class="flex text-lg justify-between font-light accordion">
               About Me
@@ -98,9 +98,9 @@
             </div>
           </div>
         </div>
-        <div class="w-full mb-16">
+        <div id="projects" class="w-full mb-16">
           <div
-            class="w-auto border-black-light border-t-[0.5px] border-b-[0.5px]"
+            class="w-auto border-black-light border-b-[0.5px] border-b-[0.5px]"
           >
             <p class="flex text-lg justify-between font-light accordion">
               1st HTML project
@@ -139,7 +139,7 @@
         </div>
         <div class="w-full mb-16">
           <div
-            class="w-auto border-black-light border-t-[0.5px] border-b-[0.5px]"
+            class="w-auto border-black-light border-b-[0.5px] border-b-[0.5px]"
           >
             <p class="flex text-lg justify-between font-light accordion">
               2st HTML project
@@ -178,7 +178,7 @@
         </div>
         <div class="w-full mb-16">
           <div
-            class="w-auto border-black-light border-t-[0.5px] border-b-[0.5px]"
+            class="w-auto border-black-light border-b-[0.5px] border-b-[0.5px]"
           >
             <p class="flex text-lg justify-between font-light accordion">
               3st HTML project
@@ -217,7 +217,7 @@
         </div>
         <div class="w-full mb-16">
           <div
-            class="w-auto border-black-light border-t-[0.5px] border-b-[0.5px]"
+            class="w-auto border-black-light border-b-[0.5px] border-b-[0.5px]"
           >
             <p class="flex text-lg justify-between font-light accordion">
               1st React project
@@ -236,7 +236,7 @@
         </div>
         <div class="w-full mb-16">
           <div
-            class="w-auto border-black-light border-t-[0.5px] border-b-[0.5px]"
+            class="w-auto border-black-light border-b-[0.5px] border-b-[0.5px]"
           >
             <p class="flex text-lg justify-between font-light accordion">
               Backend project
@@ -272,19 +272,71 @@
           <p
             class="
               font-light
-              h-16
               items-center
               flex
               justify-start
               p-3
               mt-5
-              border-black-light border-t-[0.5px]
+              border-black-light border-b-[0.5px]
             "
           >
             🔗
             <a class="ml-2 underline" href="https://github.com/kenneropia">
               GitHub
             </a>
+          </p>
+        </div>
+        <div
+          id="skills"
+          class="mt-5 w-64 capitalize font-semibold text-lg text-[#3a3833]"
+        >
+          <h1
+            class="
+              bg-[#f0f0f3]
+              h-16
+              items-center
+              flex
+              justify-start
+              space-x-5
+              p-3
+            "
+          >
+            <span>🚀</span> <span>skills</span>
+          </h1>
+          <p
+            class="
+              font-light
+              flex flex-col
+              justify-start
+              p-3
+              mt-5
+              border-black-light border-b-[0.5px]
+            "
+          >
+            <span>
+              🔰
+              <span class="ml-2"> HTML </span>
+            </span>
+            <span>
+              🔰
+              <span class="ml-2"> CSS </span>
+            </span>
+            <span>
+              🔰
+              <span class="ml-2"> TailwindCSS </span>
+            </span>
+            <span>
+              🔰
+              <span class="ml-2"> React </span>
+            </span>
+            <span>
+              🔰
+              <span class="ml-2"> Node </span>
+            </span>
+            <span>
+              🔰
+              <span class="ml-2"> Strapi </span>
+            </span>
           </p>
         </div>
         <div class="mt-5 w-64 capitalize font-semibold text-lg text-[#3a3833]">
@@ -304,13 +356,12 @@
           <p
             class="
               font-light
-              h-16
               items-center
               flex
               justify-start
               p-3
               mt-5
-              border-black-light border-t-[0.5px]
+              border-black-light border-b-[0.5px]
             "
           >
             🔗
@@ -334,42 +385,43 @@
               p-3
             "
           >
-            <span>🚀</span> <span>Work Experience</span>
+            <span>🚀</span> <span id="experience">Work Experience</span>
           </h1>
           <p
             class="
               font-light
-              h-16
               flex flex-col
               justify-start
               p-3
               mt-5
               mb-10
-              border-black-light border-t-[0.5px]
+              border-black-light border-b-[0.5px]
             "
           >
             <span>2018</span>
-            <span><a href="#">Deslemy inc.</a></span>
+            <span>Deslemy inc.</span>
             <span>Intern</span>
           </p>
           <p
             class="
               font-light
-              h-16
               mb-10
               flex flex-col
               justify-start
               p-3
               mt-5
-              border-black-light border-t-[0.5px]
+              border-black-light border-b-[0.5px]
             "
           >
             <span>2022</span>
-            <span><a href="#">Deslemy inc.</a></span>
+            <span>Deslemy inc.</span>
             <span>Swies Student</span>
           </p>
         </div>
-        <div class="mt-5 w-64 capitalize font-semibold text-lg text-[#3a3833]">
+        <div
+          id="education"
+          class="mt-5 w-64 capitalize font-semibold text-lg text-[#3a3833]"
+        >
           <h1
             class="
               bg-[#f0f0f3]
@@ -390,7 +442,7 @@
               justify-start
               p-3
               mt-5
-              border-black-light border-t-[0.5px]
+              border-black-light border-b-[0.5px]
             "
           >
             <span>2012</span>
@@ -404,7 +456,7 @@
               justify-start
               p-3
               mt-5
-              border-black-light border-t-[0.5px]
+              border-black-light border-b-[0.5px]
             "
           >
             <span>2012-2017</span>
@@ -419,7 +471,7 @@
               p-3
               mt-5
               w-auto
-              border-black-light border-t-[0.5px]
+              border-black-light border-b-[0.5px]
             "
           >
             <span>2017-2021</span>
